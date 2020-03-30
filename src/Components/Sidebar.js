@@ -25,7 +25,9 @@ const Sidebar=()=>{
                     <i className="fa fa-address-book"></i>
                     <span>Menu</span>
                 </a>
-                <ul className="sub-menu">
+                <ul className="sub-menu">                    
+                    <li><Link to={{pathname:"/home",Title:"Countries"}} >Dashboard </Link></li>
+                    <li><Link to={{pathname:"/approveuser"}} >Approve Users </Link></li>
                     <li><Link to={{pathname:"/MedicallOfficers",Title:"Countries"}} >Medical officers </Link></li>
                             
                 </ul>

@@ -16,8 +16,8 @@ const Public=(props)=>{
       <Link to="/MedicalOfficer"><button class="btn btn-success"> 
      
       I am Medical personnel</button></Link>&nbsp;
-      <button class="btn btn-secondary">I am infected</button>&nbsp;
-      <button class="btn btn-info">I Need Help</button>
+      {/* <button class="btn btn-secondary">I am infected</button>&nbsp;
+      <button class="btn btn-info">I Need Help</button> */}
     </div>
   </header>
 <PublicAbout/>

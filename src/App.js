@@ -4,6 +4,7 @@ import Sidebar from "./Components/Sidebar"
 import { HashRouter, Route, Link,Switch } from "react-router-dom";
 import Countries from "./Pages/Configurations/Countries"
 import Officers from "./Pages/Configurations/Officers"
+import Dashboard from "./Pages/Dashboard"
 
 
 import Login from "./Pages/Login"
@@ -12,6 +13,8 @@ import Register from "./Pages/Register"
 import Public from "./Pages/Public"
 import PublicAbout from "./Pages/PublicAbout"
 import MedicalOfficer from "./Pages/MedicalOfficer"
+import Approveuser from "./Pages/Approveuser"
+
 import Logout from "./Logout"
 function App() {
   
@@ -24,8 +27,9 @@ function App() {
         <Sidebar/>        
           <Switch>
             <Route path="/MedicallOfficers" exact component={Officers} />
-            <Route path="/home" exact component={Countries} />
+            <Route path="/home" exact component={Dashboard} />
             <Route path="/Logout" exact component={Logout} />
+            <Route path="/Approveuser" exact component={Approveuser} />
             
           </Switch>          
           </HashRouter> 

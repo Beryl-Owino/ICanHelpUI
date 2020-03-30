@@ -87,7 +87,7 @@ const Register=(props)=>{
         <div className="col-sm-4">
         <div className="form-group">
         <label>Email</label>
-          <input type="text" name="Email" onChange={handleInputChange} defaultValue={inputs.Name} required className="form-control" id="exampleInputEmail1" aria-describedby="NameHelp" placeholder="Enter Email"/>
+          <input type="text" name="Email" onChange={handleInputChange} defaultValue={inputs.Email} required className="form-control" id="exampleInputEmail1" aria-describedby="NameHelp" placeholder="Enter Email"/>
           </div>   
           </div>    
         </div> <div className="row">
@@ -96,7 +96,7 @@ const Register=(props)=>{
         <div className="col-sm-4">
         <div className="form-group">
         <label>Password</label>
-          <input type="password" name="Password" onChange={handleInputChange} defaultValue={inputs.Name} required className="form-control" id="exampleInputEmail1" aria-describedby="NameHelp" placeholder="Enter Password"/>
+          <input type="password" name="Password" onChange={handleInputChange} defaultValue={inputs.password} required className="form-control" id="exampleInputEmail1" aria-describedby="NameHelp" placeholder="Enter Password"/>
           </div> 
           </div>      
         </div>

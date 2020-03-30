@@ -52,7 +52,7 @@ const Officers=(props)=>{
       <div id="content" className="content">
 			
 			 <h1 class="page-header mb-3">MedicallOfficers</h1>
-       <div  >
+       <div>
         
 			<div  style={{backgroundColor:"white"}}>
       <Table Rows={state.data} columns={ColumnData} />
